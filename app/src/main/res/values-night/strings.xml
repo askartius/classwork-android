@@ -2,4 +2,5 @@
 <resources>
     <string name="start_button">Start in current stream</string>
     <string name="check_box">Check</string>
+    <string name="do_button">Just do it</string>
 </resources>
