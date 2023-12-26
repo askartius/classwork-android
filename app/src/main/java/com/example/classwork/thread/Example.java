@@ -31,6 +31,7 @@ public class Example extends Worker {
             return Result.failure();
         }
 
+        Log.d(TAG, "Work done");
         return Result.success();
     }
 }
