@@ -11,12 +11,14 @@ import android.view.View;
 import com.example.classwork.databinding.ActivityMainBinding;
 import com.example.classwork.fragment.Fragment1;
 import com.example.classwork.fragment.Fragment2;
+import com.example.classwork.fragment.Fragment3;
 
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
     private FragmentManager fragmentManager;
     private Fragment fragment1;
     private Fragment2 fragment2;
+    private Fragment3 fragment3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         fragmentManager = getSupportFragmentManager();
         fragment1 = (Fragment1) fragmentManager.getFragments().get(0);
         fragment2 = new Fragment2();
+        fragment3 = new Fragment3();
 
         binding.button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +47,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 fragmentManager.beginTransaction()
                         .replace(R.id.fragment_container, fragment2)
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
+
+        binding.button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                fragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, fragment3)
                         .addToBackStack(null)
                         .commit();
             }

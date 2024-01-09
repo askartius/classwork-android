@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Classwork</string>
-    <string name="one">1</string>
-    <string name="two">2</string>
-    <string name="three">3</string>
-    <string name="first_fragment">First fragment</string>
-    <string name="second_fragment">Second fragment</string>
+    <string name="orange_emoji">🍊</string>
+    <string name="banana_emoji">🍌</string>
+    <string name="apple_emoji">🍎</string>
+    <string name="first_fragment">Orange is orange</string>
+    <string name="second_fragment">🙈🙉🙊</string>
+    <string name="third_fragment">I like Samsung</string>
 </resources>
