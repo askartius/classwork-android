@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Classwork</string>
-    <string name="start_button">Start in current stream</string>
-    <string name="check_box">Check</string>
-    <string name="do_button">Just do it</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="first_fragment">First fragment</string>
+    <string name="second_fragment">Second fragment</string>
 </resources>
