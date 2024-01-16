@@ -4,4 +4,40 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <com.example.classwork.view.MyView
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/red_color_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/red" />
+
+        <Button
+            android:id="@+id/green_color_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/green" />
+
+        <Button
+            android:id="@+id/blue_color_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/blue" />
+    </LinearLayout>
 </LinearLayout>
