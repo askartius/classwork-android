@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="students">
+        <item>Askar Idrisov</item>
+        <item>Andrei Andreev</item>
+        <item>Ivan Ivanov</item>
+        <item>John</item>
+        <item>Peter</item>
+        <item>Katherine</item>
+        <item>Trinity</item>
+        <item>Neo</item>
+    </string-array>
+</resources>
